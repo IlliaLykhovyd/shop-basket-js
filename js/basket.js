@@ -36,7 +36,7 @@ container.insertAdjacentHTML('beforeend', createMarkup(products));
 clear.addEventListener('click', handlerClear);
 function handlerClear(event) {
   localStorage.removeItem(PRODUCT_LS_KEY);
-  window.location.href = '/index.html';
+  window.location.href = 'index.html';
 }
 
 container.addEventListener('click', handlClick);
